@@ -7,11 +7,13 @@ import { getSiteContent } from "../lib/sanity";
 
 const space = Space_Grotesk({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-heading",
   display: "swap"
 });
 const plex = IBM_Plex_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-body",
   display: "swap"
 });
